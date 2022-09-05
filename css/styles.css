@@ -104,7 +104,7 @@ body {
 
 .prof__text {
     font-family: 'Roboto';
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -164,7 +164,7 @@ body {
 
 .contact__map {
     font-family: 'Roboto';
-    font-weight: 400;
+    /* font-weight: 400; */
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
@@ -173,7 +173,7 @@ body {
 
 .contact__mail {
     font-family: 'Roboto';
-    font-weight: 400;
+    /* font-weight: 400; */
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
@@ -182,7 +182,7 @@ body {
 
 .contact__phone {
     font-family: 'Roboto';
-    font-weight: 400;
+    /* font-weight: 400; */
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
