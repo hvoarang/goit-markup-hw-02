@@ -6,7 +6,9 @@ sans-serif; */
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    /* font-weight: 400; */
     font-size: 14px;
+    /* color:#757575 */
 }
 
 .header {}
@@ -20,7 +22,7 @@ body {
 }
 
 .nav {
-    /* display: flex;       */
+    display: flex;      
 }
 
 .logo__header {
@@ -85,12 +87,10 @@ body {
 .prof__wight {}
 
 .prof__service {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     list-style: none;
 }
 
@@ -106,7 +106,7 @@ body {
     font-family: 'Roboto';
     /* font-weight: 400; */
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
 }
