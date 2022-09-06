@@ -18,7 +18,7 @@
   <body>
     <!-- шапка страницы -->
     <header class="header">
-      <div class="container">
+      
         <nav class="nav">
           <a href="./index.html" class="logo__header"
             ><span class="logo__span">Web</span>Studio</a
@@ -36,8 +36,8 @@
           </ul>
         </nav>
         <ul class="contact">
-          <li class="contact__link">
-            <a class="menu__link" href="mailto:info@devstudio.com"
+          <li class="contact__item">
+            <a class="contact__link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
@@ -45,15 +45,14 @@
             <a class="menu__link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </div>
+      
     </header>
 
     <!-- контент страницы -->
     <main class="main">
       <section class="top top__black">
         <div class="container">
-          <div class="top__content">
-            <h1 class="title">Ефективні рішення для <br />вашого бізнесу</h1>
+          <h1 class="title">Ефективні рішення для <br />вашого бізнесу</h1>
             <button href="./index.html" class="btn btn__top" type="button">
               Замовити послугу
             </button>
@@ -61,31 +60,31 @@
         </div>
       </section>
       <section class="prof prof__wight">
-        <div>
+        <h2 class="vissually__hidden">Властивості</h2>
+        
           <ul class="prof__service">
             <li class="prof__item">
-              <h2 class="hide">Властивості</h2>
-              <h3 class="prof__service">увага до деталей</h3>
+              <h3 class="prof__title">увага до деталей</h3>
               <p class="prof__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
             <li class="prof__item">
-              <h3 class="prof__service">пунктуальність</h3>
+              <h3 class="prof__title">пунктуальність</h3>
               <p class="prof__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
             <li class="prof__item">
-              <h3 class="prof__service">планування</h3>
+              <h3 class="prof__title">планування</h3>
               <p class="prof__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="prof__item">
-              <h3 class="prof__service">сучасні технології</h3>
+              <h3 class="prof__title">сучасні технології</h3>
               <p class="prof__text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
@@ -95,8 +94,10 @@
         </div>
 
         <!-- блок із зображеннями -->
-        <div class="container">
-          <h2 class="title title__sub">Чим ми займаємося</h2>
+        
+      </section>
+         <section class="section">
+          <h2 class="title__sub">Чим ми займаємося</h2>
           <ul class="prof__gallery">
             <li class="prof__show">
               <img
@@ -107,56 +108,58 @@
               />
             </li>
             <li class="prof__show">
-              <img src="images/prof_2.jpg" width="370px alt="мобільний додаток"
+              <img src="images/prof_2.jpg" width="370px" alt="мобільний додаток"
               class="prof__img" />
             </li>
             <li class="prof__show">
               <img src="images/prof_3.jpg" alt="Стайлінг" class="prof__img" />
             </li>
           </ul>
-        </div>
-      </section>
-
+        </section>
       <!-- секція з персоналом -->
       <section class="team team__grey">
-        <h2 class="title title__sub">Наша команда</h2>
+        <h2 class="title__sub">Наша команда</h2>
         <ul class="team__persons">
           <li class="team__staff">
             <img
-              style="max-width: 270px"
               src="images/ava_1.jpg"
               alt="фото Ігор Дем'яненко"
               class="team__photo"
+              width="270" 
+              height="260"
             />
             <h3 class="team__name">Ігор Дем'яненко</h3>
             <p class="team__prof">Product Designer</p>
           </li>
           <li class="team__staff">
             <img
-              style="max-width: 270px"
               src="images/ava_2.jpg"
               alt="фото Ольга Рєпіна"
-              class="team__photo"
+              class="team__photo"              
+              width="270"
+              height="260"
             />
             <h3 class="team__name">Ольга Рєпіна</h3>
             <p class="team__prof">Frontend Developer</p>
           </li>
           <li class="team__staff">
             <img
-              style="max-width: 270px"
               src="images/ava_3.jpg"
               alt="фото Микола Тарасов"
               class="team__photo"
+              width="270"
+              height="260"
             />
             <h3 class="team__name">Микола Тарасов</h3>
             <p class="team__prof">Marketing</p>
           </li>
           <li class="team__staff">
             <img
-              style="max-width: 270px"
               src="images/ava_4.jpg"
               alt="фото Михайло Єрмаков"
               class="team__photo"
+              width="270"
+              height="260"
             />
             <h3 class="team__name">Михайло Єрмаков</h3>
             <p class="team__prof">UI Designer</p>
@@ -167,7 +170,7 @@
 
     <!-- подвал -->
     <footer class="footer">
-      <div class="container">
+     
         <a
           href="./index.html"
           class="logo__footer"
@@ -179,18 +182,18 @@
         <address class="contact">
           <a
             href="https://goo.gl/maps/5Vn2toh1enwWAsTf8"
-            rel="noopener"
-            class="menu__link link"
+            rel="noopener noreferrer"
+            class="footer__contakt-link link"
             >м. Київ, пр-т Лесі Українки, 26</a
           >
-          <a href="mailto:info@devstudio.com" class="menu__link link"
+          <a href="mailto:info@devstudio.com" class="footer__contakt-link link"
             >info@devstudio.com</a
           >
-          <a href="tel:+380961111111" class="menu__link link"
+          <a href="tel:+380961111111" class="footer__contakt-link link"
             >+38 096 111 11 11</a
           >
         </address>
-      </div>
+      
     </footer>
   </body>
 </html>
