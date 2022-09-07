@@ -1,3 +1,7 @@
+:root {
+  --main-color: #212121;
+  --white-color:#ffffff;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -53,6 +57,10 @@ ul {
   color: #757575;
   text-decoration: none;
 }
+.contact__link:hover {
+  font-style: normal;
+  color:red
+}
 .portfolio__btn {
   font-weight: 500;
   font-size: 16px;
@@ -93,6 +101,7 @@ ul {
   color: #ffffff;
 }
 .btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -147,20 +156,23 @@ ul {
 }
 .team__prof {
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
   color: #757575;
 }
 
 .footer {
   background: #2f303a;
 }
-
+.footer__contakt-link:first-child {
+  color:var(--white-color)
+}
 .footer__contakt-link {
   color: #fff;
   text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer__contakt-link:hover,
 .footer__contakt-link:focus {
