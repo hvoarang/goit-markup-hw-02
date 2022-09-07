@@ -2,7 +2,13 @@
   --main-color: #212121;
   --white-color:#ffffff;
 }
+
+
+
 body {
+  width: 1600px;
+  height: 2346px;
+  background: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
@@ -59,7 +65,7 @@ ul {
 }
 .contact__link:hover {
   font-style: normal;
-  color:red
+  color:#2196F3;
 }
 .portfolio__btn {
   font-weight: 500;
@@ -176,8 +182,7 @@ ul {
 }
 .footer__contakt-link:hover,
 .footer__contakt-link:focus {
-  color: #757575;
-  cursor: pointer;
+  color: #2196F3;
 }
 
 .logo__footer {
@@ -188,6 +193,9 @@ ul {
   letter-spacing: 0.03em;
   color: #fff;
   text-decoration: none;
+}
+.footer__contact {
+  font-style: normal;
 }
 .contact__map {
   line-height: 2;
