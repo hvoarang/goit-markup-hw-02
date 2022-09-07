@@ -1,11 +1,18 @@
 :root {
   --main-color: #212121;
-  --white-color:#ffffff;
+  --white-color: #ffffff;
 }
+
+
+
 body {
+  width: 1600px;
+  height: 2346px;
+  background: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
+
 ul {
   list-style: none;
 }
@@ -17,9 +24,11 @@ ul {
   color: #212121;
   text-decoration: none;
 }
+
 .nav {
   background-color: #ffffff;
 }
+
 .logo__header {
   font-family: "Raleway";
   font-weight: 700;
@@ -29,6 +38,7 @@ ul {
   color: #000;
   text-decoration: none;
 }
+
 .logo__span {
   color: #2196f3;
 }
@@ -40,6 +50,7 @@ ul {
   color: #212121;
   text-decoration: none;
 }
+
 .menu__link:hover,
 .menu__link:focus {
   color: #2196f3;
@@ -57,10 +68,12 @@ ul {
   color: #757575;
   text-decoration: none;
 }
+
 .contact__link:hover {
   font-style: normal;
-  color:red
+  color: #2196F3;
 }
+
 .portfolio__btn {
   font-weight: 500;
   font-size: 16px;
@@ -70,17 +83,20 @@ ul {
   font-family: inherit;
   cursor: pointer;
 }
+
 .portfolio__btn:hover,
 .portfolio__btn:focus {
   color: #fff;
   background-color: #2196f3;
 }
+
 .portfolio__name {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
+
 .portfolio__type {
   font-size: 16px;
   line-height: 1.87;
@@ -91,6 +107,7 @@ ul {
 .top {
   background-color: #2f303a;
 }
+
 .title {
   font-weight: 900;
   font-size: 44px;
@@ -100,6 +117,7 @@ ul {
   text-transform: uppercase;
   color: #ffffff;
 }
+
 .btn {
   font-family: inherit;
   font-weight: 700;
@@ -111,15 +129,18 @@ ul {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
+
 .prof {
   background-color: #ffffff;
 }
+
 .prof__title {
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .vissually__hidden {
   position: absolute;
   width: 1px;
@@ -132,11 +153,13 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .prof__text {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .title__profile {
   font-weight: 700;
   font-size: 36px;
@@ -148,12 +171,14 @@ ul {
 .team {
   background-color: #f5f4fa;
 }
+
 .team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
+
 .team__prof {
   font-size: 16px;
   line-height: 1.18;
@@ -163,9 +188,11 @@ ul {
 .footer {
   background: #2f303a;
 }
+
 .footer__contakt-link:first-child {
-  color:var(--white-color)
+  color: var(--white-color)
 }
+
 .footer__contakt-link {
   color: #fff;
   text-decoration: none;
@@ -174,10 +201,10 @@ ul {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
 .footer__contakt-link:hover,
 .footer__contakt-link:focus {
-  color: #757575;
-  cursor: pointer;
+  color: #2196F3;
 }
 
 .logo__footer {
@@ -189,18 +216,25 @@ ul {
   color: #fff;
   text-decoration: none;
 }
+
+.footer__contact {
+  font-style: normal;
+}
+
 .contact__map {
   line-height: 2;
   letter-spacing: 0.02em;
   color: #ffffff;
   text-decoration: none;
 }
+
 .contact__mail {
   line-height: 2;
   letter-spacing: 0.02em;
   color: #ffffff;
   text-decoration: none;
 }
+
 .contact__phone {
   line-height: 2;
   letter-spacing: 0.02em;
